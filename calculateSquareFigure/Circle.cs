@@ -10,6 +10,7 @@ namespace calculateSquareFigure
     {
         private double radius;
 
+        /// <exception cref="ArgumentException"></exception>
         public Circle(double radius)
         {
             if (radius <= 0)
@@ -21,6 +22,7 @@ namespace calculateSquareFigure
 
         public double Square()
         {
+            /// You can see the formula <see href="https://mnogoformul.ru/formuly-ploshhadi-kruga-i-raschet-onlayn#id2">here</see>.
             return Math.Round(3.14f * Math.Pow(radius, 2), 1);
         }
     }
