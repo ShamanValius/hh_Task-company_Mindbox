@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace calculateSquareFigure
 {
-    public class Circle : IGeometricFIgure
+    public class Circle : IGeometricFigure
     {
         private double radius;
 

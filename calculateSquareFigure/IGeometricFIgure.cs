@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace calculateSquareFigure
 {
-    internal interface IGeometricFIgure
+    internal interface IGeometricFigure
     {
         double Square();
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace calculateSquareFigure
 {
-    internal class Triangle : IGeometricFIgure 
+    internal class Triangle : IGeometricFigure 
     {
         private double sideA;
         private double sideB;
