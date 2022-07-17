@@ -10,16 +10,18 @@ namespace calculateSquareFigure
     {
         private double radius;
 
-        public double Radius { get => radius; set => radius = value; }
-
         public Circle(double radius)
         {
-            Radius = radius;
+            if (radius <= 0)
+            {
+                throw new ArgumentException("Circle cannot be created with given parameters (Radius circle <= 0)");
+            }
+            this.radius = radius;
         }
 
         public double Square()
         {
-            return Math.Round(3.14f * Math.Pow(Radius, 2), 1);
+            return Math.Round(3.14f * Math.Pow(radius, 2), 1);
         }
     }
 }
