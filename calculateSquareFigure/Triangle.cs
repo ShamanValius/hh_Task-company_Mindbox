@@ -11,6 +11,7 @@ namespace calculateSquareFigure
         private double sideA;
         private double sideB;
         private double sideC;
+
         public Triangle(double a, double b, double c)
         {
             if (a <= 0 || b <= 0 || c <= 0)
@@ -26,10 +27,17 @@ namespace calculateSquareFigure
             this.sideC = c;
         }
 
-            public double Square()
+        public double Square()
         {
             double halfPerimeter = (sideA + sideB + sideC) / 2;
             return Math.Sqrt(halfPerimeter * (halfPerimeter - sideA) * (halfPerimeter - sideB) * (halfPerimeter - sideC));
+        }
+
+        public bool IsRightTriangle()
+        {
+            double[] SideTriangle = new double[3] { sideA, sideB, sideC };
+            Array.Sort(SideTriangle); 
+            return Math.Pow(SideTriangle[0], 2) + Math.Pow(SideTriangle[1], 2) == Math.Pow(SideTriangle[2], 2);
         }
     }
 }
