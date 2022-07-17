@@ -5,7 +5,12 @@ VisualStudioVersion = 17.2.32519.379
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculateSquareFigure", "calculateSquareFigure\calculateSquareFigure.csproj", "{95B4DCEE-E22A-4833-A274-B9CD944D5147}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "calculateSquareFigureTests", "calculateSquareFigureTests\calculateSquareFigureTests.csproj", "{44102A32-E5DE-47C1-8D7C-7E0D4533255F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "calculateSquareFigureTests", "calculateSquareFigureTests\calculateSquareFigureTests.csproj", "{44102A32-E5DE-47C1-8D7C-7E0D4533255F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Элементы решения", "Элементы решения", "{69D64628-FFA4-4759-A242-C81399E8E0CC}"
+	ProjectSection(SolutionItems) = preProject
+		Task_2.sql = Task_2.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
