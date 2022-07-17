@@ -1,12 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace calculateSquareFigure
 {
-    internal class Triangle : IGeometricFigure 
+    public class Triangle : IGeometricFigure 
     {
         private double sideA;
         private double sideB;

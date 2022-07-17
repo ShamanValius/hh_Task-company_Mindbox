@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace calculateSquareFigure
 {
@@ -23,7 +19,7 @@ namespace calculateSquareFigure
         public double Square()
         {
             /// You can see the formula <see href="https://mnogoformul.ru/formuly-ploshhadi-kruga-i-raschet-onlayn#id2">here</see>.
-            return Math.Round(3.14f * Math.Pow(radius, 2), 1);
+            return 3.14f * Math.Pow(radius, 2);
         }
     }
 }
